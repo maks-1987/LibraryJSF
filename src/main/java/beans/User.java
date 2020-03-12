@@ -7,7 +7,6 @@ import javax.faces.bean.SessionScoped;
 @SessionScoped
 public class User {
     private String userName;
-//    int id;
 
     public String getUserName() {
         return userName;
@@ -17,12 +16,4 @@ public class User {
         this.userName = userName;
     }
 
-
-//    public int getId() {
-//        return id;
-//    }
-//
-//    public void setId(int id) {
-//        this.id = id;
-//    }
 }

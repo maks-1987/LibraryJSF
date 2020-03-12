@@ -5,8 +5,17 @@
     http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
   <application>
       <resource-bundle>
-          <base-name>nls.messages</base-name>
+          <base-name>nls.message</base-name>
           <var>msg</var>
       </resource-bundle>
   </application>
+
+    <navigation-rule>
+        <from-view-id>/index.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>books</from-outcome>
+            <to-view-id>/pages/books.xhtml</to-view-id>
+            <redirect />
+        </navigation-case>
+    </navigation-rule>
 </faces-config>

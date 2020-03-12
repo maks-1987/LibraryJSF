@@ -38,16 +38,17 @@ body {
     border: 1px solid #eaeaea;
     margin: 0 auto;
     padding:10px;
+    height: 150px;
 }
 
 .footer {
     color:#cccccc;
-    height: 50px;
     text-align: center;
     margin:50px;
-    clear: both;
 }
 
 .content {
-    height:200px;
+    color:#ff0000;
+    font-style: italic;
+    font-size: 12px;
 }
